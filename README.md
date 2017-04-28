@@ -9,7 +9,7 @@ gcdt: https://github.com/glomex/gcdt
 
 Features include:
 
-* 
+* demo gcdt plugin mechanism
 
 
 ## Running tests
