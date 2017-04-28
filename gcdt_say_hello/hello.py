@@ -3,12 +3,17 @@
 from __future__ import unicode_literals, print_function
 
 from gcdt import gcdt_signals
+from gcdt.gcdt_logging import getLogger
+
+
+log = getLogger(__name__)
 
 
 def say_hello(context):
     """say hi.
     :param context: The _awsclient, etc.. say_hello plugin needs the 'user'
     """
+    log.debug('This is a sample debug message.')
     print('MoinMoin %s!' % context.get('user', 'to you'))
 
 
